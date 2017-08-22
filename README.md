@@ -1,4 +1,21 @@
-# arduino-adf4350
+# About
+
+Simple tool for arduino for controlling the ADF4350 using a serial command line interface.
+
+Commands:
+
+    freq FREQUENCY
+
+Where FREQUENCY is the frequency in Hz as a float number, e.g. 200e6 for 200Mhz.
+
+# Wiring
+
+SPI SCK -> CLK
+SPI MOSI -> DATA
+10 -> LE
+3.3V -> CE
+
+# Copyright
 
 Includes code for frequency settings from https://github.com/mathiashelsen/ADF4350_RPi
 
